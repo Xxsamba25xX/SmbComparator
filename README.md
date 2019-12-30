@@ -1,0 +1,2 @@
+# SmbComparator
+Compara dos objetos
