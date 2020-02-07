@@ -1,0 +1,76 @@
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <getViajeFullDetailResponse xmlns="http://tempuri.org/">
+      <getViajeFullDetailResult>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+          <NewDataSet xmlns="">
+            <Table diffgr:id="Table1" msdata:rowOrder="0">
+              <Salida_Garantizada>S</Salida_Garantizada>
+              <Media_Pension>N</Media_Pension>
+              <ID_Viaje>18799</ID_Viaje>
+              <Fecha_Inicio_America>N</Fecha_Inicio_America>
+              <Nombre_Viaje>Andalucia, Tren AVE</Nombre_Viaje>
+              <ROTATIVO>N</ROTATIVO>
+              <Viaje_Incluye />
+              <Traslado_Llegada>N</Traslado_Llegada>
+              <Traslado_Salida>N</Traslado_Salida>
+              <VIAJE_A_MEDIDA>N</VIAJE_A_MEDIDA>
+              <PARADAS>N</PARADAS>
+              <Confirmacion_Inmediata>N</Confirmacion_Inmediata>
+              <Pasajero_Club>N</Pasajero_Club>
+              <NECESARIO_PASAPORTE>S</NECESARIO_PASAPORTE>
+              <TIPOVIAJE>TIERRAYMAR</TIPOVIAJE>
+              <NOMBRE_VIAJE_PORTUGUES>Andaluzia, Trem  AVE</NOMBRE_VIAJE_PORTUGUES>
+              <COLOR_VIAJE>FUCSIA</COLOR_VIAJE>
+              <TEMPORADA>2020</TEMPORADA>
+              <Numero_Dias>3</Numero_Dias>
+              <WordEuros>http://www.europamundo-online.com/Documentos/Word/2020/euros/18799.doc</WordEuros>
+              <WordDolares>http://www.europamundo-online.com/Documentos/Word/2020/dolares/18799.doc</WordDolares>
+              <PdfEuros />
+              <PdfDolares />
+              <WordBrasil>http://www.europamundo-online.com/Documentos/Brasil/Words/2020/18799.doc</WordBrasil>
+              <PdfBrasil />
+              <PERMITE_COMPARTIR>S</PERMITE_COMPARTIR>
+              <EXCLUSIVO_BRASIL>N</EXCLUSIVO_BRASIL>
+              <EXCLUSIVO_ATOM />
+              <VIAJE_OBSERVACIONES>Usted adquirió un circuito que incluye billete de tren, su equipaje durante el trayecto de tren estará bajo su responsabilidad y custodia. El límite total es de 20 Kg. y las dimensiones no deben exceder largo ancho alto de 250 cm. La empresa de servicios ferroviarios no asumirá responsabilidad de ninguna incidencia en relación al equipaje.IMPORTANTE: Lea en Condiciones Generales, páginas 624-627 de nuestro catálogo o el siguiente enlace: https://www.europamundo.com/Condiciones_generales.aspx, toda la información relacionada con los circuitos COMBINADOS con tren / avión / barco.</VIAJE_OBSERVACIONES>
+              <ID_CONSTANTE>1</ID_CONSTANTE>
+              <TIPO_VIAJE_ESP />
+              <COLOR_VIAJE_ESP />
+              <PdfEspana />
+              <WordEspana>http://www.europamundo-online.com/Documentos/Espana/Words/2020/18799.doc</WordEspana>
+              <VIAJES_SLOW>N</VIAJES_SLOW>
+              <URL_IMAGEN>17406</URL_IMAGEN>
+              <PERMITE_TRIPLE>S</PERMITE_TRIPLE>
+              <UrlImagenAlta>https://www.cloud-europamundo.com/img/maps/euros/17406.jpg</UrlImagenAlta>
+              <UrlImagenEspAlta />
+              <UrlImagenBrasilAlta>https://www.cloud-europamundo.com/img/maps/brasil/17406.jpg</UrlImagenBrasilAlta>
+              <UrlImagenMedia>https://www.cloud-europamundo.com/img/maps/med/euros/17406.jpg</UrlImagenMedia>
+              <UrlImagenEspMedia />
+              <UrlImagenBrasilMedia>https://www.cloud-europamundo.com/img/maps/med/brasil/17406.jpg</UrlImagenBrasilMedia>
+              <UrlImagenBaja>https://www.cloud-europamundo.com/img/maps/baja/euros/17406.jpg</UrlImagenBaja>
+              <UrlImagenEspBaja />
+              <UrlImagenBrasilBaja>https://www.cloud-europamundo.com/img/maps/baja/brasil/17406.jpg</UrlImagenBrasilBaja>
+              <VIAJE_FOLLETO_PORTUGAL />
+              <UrlImagenPortugalAlta />
+              <UrlImagenPortugalMedia />
+              <UrlImagenPortugalBaja />
+              <WordPortugal>http://www.europamundo-online.com/Documentos/Portugal/Words/2020/18799.doc</WordPortugal>
+              <PdfPortugal />
+              <NombreViajeFolleto>Andalucía, Tren AVE</NombreViajeFolleto>
+              <NombreViajeFolletoPortugal>Andaluzia, Trem  AVE</NombreViajeFolletoPortugal>
+              <PERMITE_SINGLE>S</PERMITE_SINGLE>
+              <WordEnglish>http://www.europamundo-online.com/Documentos/English/Words/2020/18799.doc</WordEnglish>
+              <PdfEnglish />
+              <WordEnglishDolares>http://www.europamundo-online.com/Documentos/English_Dolares/Words/2020/18799.doc</WordEnglishDolares>
+              <PdfEnglishDolares />
+              <PERMITE_CUADRUPLE>N</PERMITE_CUADRUPLE>
+              <WordRuso />
+              <PdfRuso />
+            </Table>
+          </NewDataSet>
+        </diffgr:diffgram>
+      </getViajeFullDetailResult>
+    </getViajeFullDetailResponse>
+  </soap:Body>
+</soap:Envelope>

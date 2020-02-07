@@ -1,0 +1,76 @@
+﻿<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <getViajeFullDetailResponse xmlns="http://tempuri.org/">
+      <getViajeFullDetailResult>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+          <NewDataSet xmlns="">
+            <Table diffgr:id="Table1" msdata:rowOrder="0">
+              <Salida_Garantizada>S</Salida_Garantizada>
+              <Media_Pension>N</Media_Pension>
+              <ID_Viaje>18139</ID_Viaje>
+              <Fecha_Inicio_America>N</Fecha_Inicio_America>
+              <Nombre_Viaje>Extienda a Barcelona</Nombre_Viaje>
+              <ROTATIVO>N</ROTATIVO>
+              <Viaje_Incluye />
+              <Traslado_Llegada>N</Traslado_Llegada>
+              <Traslado_Salida>N</Traslado_Salida>
+              <VIAJE_A_MEDIDA>N</VIAJE_A_MEDIDA>
+              <PARADAS>N</PARADAS>
+              <Confirmacion_Inmediata>N</Confirmacion_Inmediata>
+              <Pasajero_Club>N</Pasajero_Club>
+              <NECESARIO_PASAPORTE>S</NECESARIO_PASAPORTE>
+              <TIPOVIAJE>CLASICA</TIPOVIAJE>
+              <NOMBRE_VIAJE_PORTUGUES>Estenda sua viagem desde Madri a Barcelona</NOMBRE_VIAJE_PORTUGUES>
+              <COLOR_VIAJE>NARANJA</COLOR_VIAJE>
+              <TEMPORADA>2020</TEMPORADA>
+              <Numero_Dias>2</Numero_Dias>
+              <WordEuros>http://www.europamundo-online.com/Documentos/Word/2020/euros/18139.doc</WordEuros>
+              <WordDolares>http://www.europamundo-online.com/Documentos/Word/2020/dolares/18139.doc</WordDolares>
+              <PdfEuros />
+              <PdfDolares />
+              <WordBrasil>http://www.europamundo-online.com/Documentos/Brasil/Words/2020/18139.doc</WordBrasil>
+              <PdfBrasil />
+              <PERMITE_COMPARTIR>S</PERMITE_COMPARTIR>
+              <EXCLUSIVO_BRASIL />
+              <EXCLUSIVO_ATOM />
+              <VIAJE_OBSERVACIONES />
+              <ID_CONSTANTE>408</ID_CONSTANTE>
+              <TIPO_VIAJE_ESP>ESPCLASICA</TIPO_VIAJE_ESP>
+              <COLOR_VIAJE_ESP>ESPNARANJA</COLOR_VIAJE_ESP>
+              <PdfEspana />
+              <WordEspana>http://www.europamundo-online.com/Documentos/Espana/Words/2020/18139.doc</WordEspana>
+              <VIAJES_SLOW>N</VIAJES_SLOW>
+              <URL_IMAGEN />
+              <PERMITE_TRIPLE>S</PERMITE_TRIPLE>
+              <UrlImagenAlta />
+              <UrlImagenEspAlta />
+              <UrlImagenBrasilAlta />
+              <UrlImagenMedia />
+              <UrlImagenEspMedia />
+              <UrlImagenBrasilMedia />
+              <UrlImagenBaja />
+              <UrlImagenEspBaja />
+              <UrlImagenBrasilBaja />
+              <VIAJE_FOLLETO_PORTUGAL />
+              <UrlImagenPortugalAlta />
+              <UrlImagenPortugalMedia />
+              <UrlImagenPortugalBaja />
+              <WordPortugal>http://www.europamundo-online.com/Documentos/Portugal/Words/2020/18139.doc</WordPortugal>
+              <PdfPortugal />
+              <NombreViajeFolleto>Extienda su viaje desde Madrid a Barcelona</NombreViajeFolleto>
+              <NombreViajeFolletoPortugal>Estenda sua viagem desde Madri a Barcelona</NombreViajeFolletoPortugal>
+              <PERMITE_SINGLE>S</PERMITE_SINGLE>
+              <WordEnglish>http://www.europamundo-online.com/Documentos/English/Words/2020/18139.doc</WordEnglish>
+              <PdfEnglish />
+              <WordEnglishDolares>http://www.europamundo-online.com/Documentos/English_Dolares/Words/2020/18139.doc</WordEnglishDolares>
+              <PdfEnglishDolares />
+              <PERMITE_CUADRUPLE>N</PERMITE_CUADRUPLE>
+              <WordRuso />
+              <PdfRuso />
+            </Table>
+          </NewDataSet>
+        </diffgr:diffgram>
+      </getViajeFullDetailResult>
+    </getViajeFullDetailResponse>
+  </soap:Body>
+</soap:Envelope>
