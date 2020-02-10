@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SmbComparator
@@ -32,6 +34,7 @@ namespace SmbComparator
 				foreach (var item in type.GetProperties())
 				{
 					var itmType = item.PropertyType;
+					Console.WriteLine(JsonConvert.SerializeObject(type));
 					Console.WriteLine($"Type: '{itmType.Name}'[ Class: {itmType.IsClass}, Public: {itmType.IsPublic}, Value: {itmType.IsValueType} ]");
 					if (itmType.IsClass && itmType.IsPublic && !itmType.IsValueType)
 					{
@@ -39,6 +42,9 @@ namespace SmbComparator
 					}
 					else
 					{
+						var asdasd = item.GetIndexParameters()[0];
+						var auxa = item.GetValue(val1, new object[] { 1 });
+
 						Console.WriteLine($"{item.GetValue(val1)} || {item.GetValue(val2)}");
 					}
 				}
@@ -46,6 +52,34 @@ namespace SmbComparator
 			//Si encuentro una propiedad compuesta meterlo a la cola de procesamiento
 			//Al terminar de recorrer todas las propiedades Comenzar a recorrer la cola
 			//Asi hasta terminar...
+		}
+
+
+		public string GetTypeInfo(Type type)
+		{
+			var aux = typeof(Type).GetProperties();
+			StringBuilder sb = new StringBuilder();
+			sb.AppendLine("{");
+			sb.AppendLine($"\"Name\":\"{type.Name}\",");
+			sb.AppendLine($"\"Info\":[");
+			foreach (var item in aux)
+			{
+				sb.AppendLine("{");
+				sb.AppendLine($"\"Name\": \"{item.Name}\",");
+				sb.AppendLine($"\"Type\": \"{item.PropertyType.Name}\",");
+				try
+				{
+					sb.AppendLine($"\"Value\": \"{item.GetValue(type)}\"");
+				}
+				catch (Exception ex)
+				{
+					sb.AppendLine($"\"Value\": \"{$"No se pudo leer propiedad: {ex.Message}"}\"");
+				}
+				sb.AppendLine("},");
+			}
+			sb.AppendLine("]");
+			sb.AppendLine("}");
+			return sb.ToString();
 		}
 	}
 }
