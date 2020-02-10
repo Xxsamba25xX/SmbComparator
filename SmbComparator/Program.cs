@@ -29,6 +29,11 @@ namespace SmbComparator
 			sb.AppendLine(c.GetTypeInfo(typeof(Envelope)));
 
 			File.WriteAllText("log.txt", sb.ToString());
+			string path = Assembly.GetExecutingAssembly().CodeBase;
+			var directory = Path.GetDirectoryName(path);
+
+			Process.Start("explorer.exe", directory);
+
 			c.Compare();
 
 			Console.ReadKey();
