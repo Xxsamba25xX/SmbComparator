@@ -8,6 +8,25 @@ using System.Xml.Serialization;
 
 namespace SmbComparator
 {
+	public class Root
+	{
+		public IBase Base { get; set; }
+	}
+
+	public interface IBase
+	{
+		public string property { get; set; }
+	}
+
+	public class Base : IBase
+	{
+		public string property { get; set; }
+	}
+
+
+
+
+
 
 	[System.Xml.Serialization.XmlRootAttribute(Namespace = "http://schemas.xmlsoap.org/soap/envelope/", IsNullable = false)]
 	public partial class Envelope
@@ -148,7 +167,7 @@ namespace SmbComparator
 		public string COLOR_VIAJE_ESP { get; set; }
 
 
-		public object PdfEspana { get; set; }
+		public (string aux, int momo) PdfEspana { get; set; }
 
 
 		public string WordEspana { get; set; }
